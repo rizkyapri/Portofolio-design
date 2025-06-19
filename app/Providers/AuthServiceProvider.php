@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Task;
 use Firefly\FilamentBlog\Models\Category;
 use Firefly\FilamentBlog\Models\Comment;
 use Firefly\FilamentBlog\Models\NewsLetter;
@@ -24,6 +25,7 @@ class AuthServiceProvider extends ServiceProvider
         NewsLetter::class => \App\Policies\NewsLetterPolicy::class,
         ShareSnippet::class => \App\Policies\ShareSnippetPolicy::class,
         Setting::class => \App\Policies\SettingPolicy::class,
+        Task::class => \App\Policies\TaskPolicy::class,
         // Tambahkan lainnya sesuai kebutuhanmu
     ];
 
