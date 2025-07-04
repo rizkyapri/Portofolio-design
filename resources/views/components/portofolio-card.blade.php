@@ -318,7 +318,7 @@
                 <div class="blog-slider__content">
                     <span class="blog-slider__code">26 December 2019</span>
                     <div class="blog-slider__title">{{ $project->title }}</div>
-                    <div class="blog-slider__text"> {{ $project->description }} </div>
+                    <div class="blog-slider__text"> {{ Str::limit($project->description, 60) }} </div>
                     {{-- <div class="flex items-center mt-8 space-x-3">
                         <div class="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
                             <img src="{{ asset('images/user1.jpg') }}" width="40" height="40" alt="Avatar"

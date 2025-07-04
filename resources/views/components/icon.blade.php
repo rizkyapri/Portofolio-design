@@ -49,8 +49,8 @@
                     </g>
                 </svg>
             </div>
-            <div data-aos="fade-up" data-aos-delay="500" class="pt-1 text-gray-400 dark:text-gray-400 animate-spin animate-thrice animate-delay-1000 ">
-                <svg width="120px" height="120px" viewBox="0 -14 256 256" fill="#000000">
+            <div data-aos="fade-up" data-aos-delay="500" class="pt-1 text-gray-400 dark:text-gray-400">
+                <svg class="animate-spin animate-thrice delay-1000 " width="120px" height="120px" viewBox="0 -14 256 256" fill="#000000">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">

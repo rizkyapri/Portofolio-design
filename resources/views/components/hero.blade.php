@@ -22,7 +22,7 @@
 </div>
 
 <script>
-    const descriptionString = "{{ $hero['description'] }}";
+    const descriptionString = "{{ $hero['description'] ?? 'Laravel Developer,Open Source Enthusiast,Web Artisan' }}";
     const textArray = descriptionString.split(',').map(item => item.trim());
     let currentIndex = 0;
 
