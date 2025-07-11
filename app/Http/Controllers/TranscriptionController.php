@@ -16,14 +16,17 @@ class TranscriptionController extends Controller
 
         return view('speech.voice', compact('transcriptions'));
     }
+    
     public function store(Request $request)
     {
         $request->validate([
-            'text' => 'required|string',
+            'text1' => 'required|string',
+            'text2' => 'nullable|string',
         ]);
 
         $transcription = Transcription::create([
-            'text' => $request->text,
+            'text1' => $request->text1,
+            'text2' => $request->text2 ?? '',
         ]);
 
         return response()->json(['message' => 'Saved', 'id' => $transcription->id]);
