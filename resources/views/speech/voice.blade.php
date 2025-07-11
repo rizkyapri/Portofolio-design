@@ -12,7 +12,7 @@
 
 <body class="bg-gray-100 min-h-screen py-10 px-4">
     <div class="absolute top-4 left-4">
-        <a href="{{ route('home') }}"
+        <a href="{{ route('landing') }}"
             class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-200">
             Home
         </a>
